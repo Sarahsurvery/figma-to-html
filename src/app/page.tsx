@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Card from "@/app/components/recent-post-card";
-// import styles from "./page.module.css";
+// import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <div className="hero-section">
+      <section className="hero-section">
         <div className="container">
           <div className="main">
             <div className="text-container">
@@ -29,9 +29,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-        <div className="recent-post">
+        <section className="recent-post">
         <div className="container">
           <div className="main">
             <div className="heading">
@@ -45,9 +45,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
             
-        <div className="featured-section">
+        <section className="featured-section">
           <div className="container">
            <div className="main">
             <div className="main-heading">
@@ -132,7 +132,7 @@ export default function Home() {
           </div>
           </div>
         </div> 
-      </div>
+      </section>
     </>
   );
 }
